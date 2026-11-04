@@ -1,6 +1,7 @@
 function highlight() {
+	// alert("mouse over")
     //Write your code here
-	const boldWords = document.querySelectorAll('.strong')
+	const boldWords = document.querySelectorAll('strong')
     boldWords.forEach((word) => {
         word.style.color = 'green'
     })
